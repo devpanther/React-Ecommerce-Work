@@ -4,10 +4,6 @@ It is a fullstack app where users can create account to place orders and leave t
 This is frontend source code for the app. For the backend source click [here](https://github.com/Ekenzy-101/Node-Ecommerce-Backend)
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## LIVE DEMO
-
-[Demo](https://kenzyreactecommerce.herokuapp.com)
-
 ![ScreenShot](screenshot.png)
 
 ## TECHNOLOGY STACKS
