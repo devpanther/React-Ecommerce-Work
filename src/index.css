@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --border-color: rgba(0, 0, 0, 0.28);
+}
+
+.MuiCardHeader-title {
+  text-transform: capitalize;
+  overflow-wrap: break-word !important;
+}
+
+.MuiCardHeader-subheader {
+  color: #fb8c00 !important;
+  font-weight: bold;
+}
+
+.MuiButton-contained:hover {
+  background-color: #fb8c00 !important;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+  background-color: #e31b23;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  display: flex;
+  align-items: center;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  padding: 18.5px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-bottom: 1.2rem;
+}
+
+.StripeElement:hover {
+  border-color: #fb8c00;
+}
+
+.StripeElement--focus {
+  border-color: #fb8c00;
+}
+
+.StripeElement--invalid {
+  border-color: #f44336;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: #f44336;
+}
+
+.helper-text {
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+}
+
+.MuiFormHelperText-root {
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  text-align: left;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+
+.comment-area {
+  padding: 18.5px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-bottom: 1.2rem;
+  outline: none;
+  background: inherit;
+  color: inherit;
+  width: 90%;
+}
+
+.comment-area:focus,
+.comment-area:hover {
+  border-color: #fb8c00;
+}
+
+@media (max-width: 600px) {
+  .MuiCardHeader-title {
+    font-size: 1rem !important;
+  }
+}
